@@ -57,8 +57,11 @@ Finally, the command tells you which branch you’re on and informs
 you that it has not diverged from the same branch on the server.
 For now, that branch is always “master”, which is the default; 
 you won’t worry about it here.
-Chapter 3 will go over branches and references in detail.
-
+""""Chapter 3 will go over branches and references in detail.""""
+<commit 2 chang 1>
+<commit 2 chang 2>
+<commit 2 chang 3>
+<commit 2 chang 4>
 Let’s say you add a new file to your project, a simple README file. 
 If the file didn’t exist before, and you run git status, 
 you see your untracked file like so:
