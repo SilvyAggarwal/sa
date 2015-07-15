@@ -87,7 +87,10 @@ Untracked files are everything else –
 any files in your working directory that were not in
 your last snapshot and are not in your staging area.
 When you first clone a repository, all of your files will be tracked and unmodified because you
-just checked them out and haven’t edited anything.
+<<<<<just checked them out and haven’t edited anything.>>>>
+<commit 3 chang 1>
+<commit 3 chang 2>
+<commit 3 chang 3>
 This means you have a clean working directory – 
 in other words, there are no tracked and modified files.
 Git also doesn’t see any untracked files, or they would be listed here.
