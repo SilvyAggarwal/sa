@@ -1,2 +1,3 @@
 filename = "strings.xml"
 text = "hello"
+<string name="abc"> name_abc %2s
