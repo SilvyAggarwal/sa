@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!-- Cars -->
+<!-- Cars Calendar Strings -->
+<!-- Tooltip description for selecting the start date -->
+<string name="cars_calendar_start_date_label">Next: Select return date</string>
+<!-- Tooltip description when both start and end dates are selected -->
+<string name="cars_calendar_end_date_label">Drag to modify</string>
+<!-- SeekBar tooltip description for pick up time-->
+<string name="cars_time_slider_pick_up_label">Pick up time</string>
+<!-- SeekBar tooltip description for drop off time-->
+<string name="cars_time_slider_drop_off_label">Drop off time</string>
+<!-- Cars price templates-->
+<string name="cars_hourly_text">Hourly</string>
+<!-- Cars price templates-->
+<string name="cars_daily_text">Daily</string>
+<!-- Cars checkout price breakdown for POS same as pickup location templates-->
+<string name="cars_checkout_breakdown_us_text">Rates quoted in %s.</string>
+<!-- Cars checkout price breakdown for pickup location different than POS templates-->
+<string name="cars_checkout_breakdown_non_us_text">Rates quoted in %1$s. All taxes or fees due at pick-up will be settled in the local currency (%2$s).</string>
+<!-- Cars weekly price templates-->
+<string name="cars_weekly_text">Weekly</string>
+<!-- Cars weekly price templates-->
+<string name="cars_monthly_text">Monthly</string>
+<!-- Cars price templates-->
+<string name="cars_total_template">Total %s</string>
+<!-- Slide to reserve -->
+<string name="cars_slider_text">Slide to reserve</string>
+<!-- Text for checkout toolbar-->
+<string name="cars_checkout_text">Checkout</string>
+<!-- Text for error toolbar-->
+<string name="cars_dupe_trip_text">Duplicate Trip</string>
+<!-- Text for error toolbar-->
+<string name="cars_session_timeout_text">Session Timeout</string>
+<!-- Text for error toolbar-->
+</resources>
