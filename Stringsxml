@@ -1,0 +1,115 @@
+You have a bona fide Git repository and a checkout or working copy of the files for that project. 
+You need to make some changes and commit snapshots of those changes
+into your repository each time the project reaches a state you want to record.
+Remember that each file in your working directory can be in one of two states: 
+tracked or untracked.
+Tracked files are files that were in the last snapshot; 
+they can be unmodified, 
+modified, or staged.
+Untracked files are everything else – 
+any files in your working directory that were not in
+your last snapshot and are not in your staging area.
+When you first clone a repository, all of your files will be tracked and unmodified because you
+just checked them out and haven’t edited anything.
+This means you have a clean working directory – 
+in other words, there are no tracked and modified files.
+Git also doesn’t see any untracked files, or they would be listed here.
+Finally, the command tells you which branch you’re on and informs 
+you that it has not diverged from the same branch on the server.
+For now, that branch is always “master”, which is the default; 
+you won’t worry about it here.
+Chapter 3 will go over branches and references in detail.
+
+Let’s say you add a new file to your project, a simple README file. 
+If the file didn’t exist before, and you run git status, 
+you see your untracked file like so:
+
+$ echo 'My Project' > README
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+    README
+
+nothing added to commit but untracked files present (use "git add" to track)
+You have a bona fide Git repository and a checkout or working copy of the files for that project. 
+You need to make some changes and commit snapshots of those changes
+into your repository each time the project reaches a state you want to record.
+Remember that each file in your working directory can be in one of two states: 
+tracked or ""untracked"".
+<change 1>
+<cahnge 2>
+<change 2>
+<change 4>
+Tracked files are files that were in the last snapshot; 
+they can be unmodified, 
+modified, or staged.
+Untracked files are everything else – 
+any files in your working directory that were not in
+your last snapshot and are not in your staging area.
+When you first clone a repository, all of your files will be tracked and unmodified because you
+just checked them out and haven’t edited anything.
+This means you have a clean working directory – 
+in other words, there are no tracked and modified files.
+Git also doesn’t see any untracked files, or they would be listed here.
+Finally, the command tells you which branch you’re on and informs 
+you that it has not diverged from the same branch on the server.
+For now, that branch is always “master”, which is the default; 
+you won’t worry about it here.
+""""Chapter 3 will go over branches and references in detail.""""
+<commit 2 chang 1>
+<commit 2 chang 2>
+<commit 2 chang 3>
+<commit 2 chang 4>
+Let’s say you add a new file to your project, a simple README file. 
+If the file didn’t exist before, and you run git status, 
+you see your untracked file like so:
+
+$ echo 'My Project' > README
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+    README
+
+nothing added to commit but untracked files present (use "git add" to track)
+You have a bona fide Git repository and a checkout or working copy of the files for that project. 
+You need to make some changes and commit snapshots of those changes
+into your repository each time the project reaches a state you want to record.
+Remember that each file in your working directory can be in one of two states: 
+tracked or untracked.
+Tracked files are files that were in the last snapshot; 
+they can be unmodified, 
+modified, or staged.
+Untracked files are everything else – 
+any files in your working directory that were not in
+your last snapshot and are not in your staging area.
+When you first clone a repository, all of your files will be tracked and unmodified because you
+<<<<<just checked them out and haven’t edited anything.>>>>
+<commit 3 chang 1>
+<commit 3 chang 2>
+<commit 3 chang 3>
+This means you have a clean working directory – 
+in other words, there are no tracked and modified files.
+Git also doesn’t see any untracked files, or they would be listed here.
+Finally, the command tells you which branch you’re on and informs 
+you that it has not diverged from the same branch on the server.
+For now, that branch is always “master”, which is the default; 
+you won’t worry about it here.
+Chapter 3 will go over branches and references in detail.
+
+Let’s say you add a new file to your project, a simple README file. 
+If the file didn’t exist before, and you run git status, 
+you see your untracked file like so:
+
+$ echo 'My Project' > README
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+    README
+
+nothing added to commit but untracked files present (use "git add" to track)
